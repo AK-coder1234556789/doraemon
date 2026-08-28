@@ -1,0 +1,115 @@
+{
+  "site": {
+    "title": "Doraemon Universe",
+    "tagline": "A fan-made digital home for Doraemon lovers",
+    "notice": "Unofficial fan project. Doraemon and related characters belong to their respective rights holders."
+  },
+  "hero": {
+    "eyebrow": "WELCOME TO THE 22ND CENTURY",
+    "title": "Doraemon Universe",
+    "subtitle": "Explore characters, futuristic gadgets, memorable adventures and the magical world of Doraemon.",
+    "primaryButton": "Explore Universe",
+    "secondaryButton": "Random Gadget"
+  },
+  "characters": [
+    {
+      "name": "Doraemon",
+      "role": "22nd-century robotic cat",
+      "emoji": "🤖",
+      "description": "Nobita's futuristic companion, famous for his 4D pocket and endless gadgets."
+    },
+    {
+      "name": "Nobita Nobi",
+      "role": "Doraemon's best friend",
+      "emoji": "👓",
+      "description": "Kind-hearted, imaginative and often rescued from trouble by Doraemon's gadgets."
+    },
+    {
+      "name": "Shizuka Minamoto",
+      "role": "Nobita's friend",
+      "emoji": "🌸",
+      "description": "Smart, caring and one of the most important people in Nobita's life."
+    },
+    {
+      "name": "Gian",
+      "role": "Nobita's classmate",
+      "emoji": "🎤",
+      "description": "Strong and confident, with a legendary love of singing."
+    },
+    {
+      "name": "Suneo Honekawa",
+      "role": "Nobita's classmate",
+      "emoji": "💎",
+      "description": "Stylish and boastful, often showing off his family's possessions."
+    },
+    {
+      "name": "Dorami",
+      "role": "Doraemon's younger sister",
+      "emoji": "💛",
+      "description": "A capable yellow robot cat who often helps when Doraemon needs support."
+    }
+  ],
+  "gadgets": [
+    {
+      "name": "Anywhere Door",
+      "icon": "🚪",
+      "power": "Instant travel",
+      "description": "A magical-looking door that can connect one place to another."
+    },
+    {
+      "name": "Take-copter",
+      "icon": "🎋",
+      "power": "Flight",
+      "description": "A tiny propeller gadget that lets characters fly."
+    },
+    {
+      "name": "4D Pocket",
+      "icon": "👜",
+      "power": "Infinite storage",
+      "description": "Doraemon's famous pocket stores an enormous collection of gadgets."
+    },
+    {
+      "name": "Time Machine",
+      "icon": "⏳",
+      "power": "Time travel",
+      "description": "Allows journeys across different points in time."
+    },
+    {
+      "name": "Memory Bread",
+      "icon": "🍞",
+      "power": "Memorization",
+      "description": "A futuristic food gadget associated with memorizing written information."
+    },
+    {
+      "name": "What-If Phone Booth",
+      "icon": "☎️",
+      "power": "Alternate worlds",
+      "description": "A gadget for imagining a world where a hypothetical condition becomes reality."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "22nd Century",
+      "title": "Doraemon's era",
+      "text": "Doraemon and advanced future technology originate here."
+    },
+    {
+      "year": "20th Century",
+      "title": "Nobita's everyday world",
+      "text": "Doraemon arrives to help Nobita change the course of his future."
+    },
+    {
+      "year": "Future",
+      "title": "Endless possibilities",
+      "text": "Time travel and futuristic gadgets open the door to countless adventures."
+    }
+  ],
+  "facts": [
+    "Doraemon is a robotic cat from the future.",
+    "Dorayaki is strongly associated with Doraemon.",
+    "Doraemon's 4D pocket contains futuristic gadgets.",
+    "Nobita is Doraemon's primary companion in the 20th century.",
+    "Dorami is Doraemon's younger sister.",
+    "The series combines comedy, friendship, imagination and futuristic technology."
+  ]
+}
