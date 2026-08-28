@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Doraemon.</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{--bg:#f2f1ed;--ink:#111;--muted:#777;--line:#c9c7c1;--blue:#1268ff;--red:#ef3131;--yellow:#ffd43b;--paper:#faf9f5}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Manrope,Arial,sans-serif;overflow-x:hidden}.mono{font-family:"DM Mono",monospace}.wrap{max-width:1440px;margin:auto;padding:0 38px}.top{height:66px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;font-size:11px}.logo{font-weight:800;letter-spacing:-.7px;font-size:18px}.sub{font:10px "DM Mono";color:var(--muted);margin-left:10px}.nav{display:flex;gap:3px}.nav button,.utility{border:0;background:transparent;padding:9px 11px;font:10px "DM Mono";cursor:pointer;color:#333}.nav button:hover,.utility:hover{background:#111;color:#fff}.utility{border-left:1px solid var(--line)}
+.hero{min-height:760px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1.1fr .9fr;position:relative}.hero-copy{padding:100px 0 100px 0;align-self:center}.eyebrow{font:10px "DM Mono";letter-spacing:1.6px;color:var(--blue);font-weight:500}.hero h1{font-size:clamp(68px,9.5vw,148px);line-height:.84;letter-spacing:-7px;margin:22px 0 30px;font-weight:800}.hero p{font-size:16px;line-height:1.7;color:#4f4f4f;max-width:650px}.hero-actions{display:flex;gap:8px;margin-top:28px;flex-wrap:wrap}.btn{border:1px solid #111;background:#111;color:white;padding:13px 16px;font:10px "DM Mono";cursor:pointer}.btn.alt{background:transparent;color:#111}.btn:hover{transform:translateY(-1px)}.hero-note{margin-top:30px;font:10px "DM Mono";color:var(--muted)}.hero-art{position:relative;min-height:600px;border-left:1px solid var(--line);overflow:hidden;background:linear-gradient(135deg,#e9e7e0,#f8f7f2)}
+.star{position:absolute;width:4px;height:4px;background:#111;border-radius:50%}.orbit{position:absolute;border:1px solid #bbb;border-radius:50%;width:540px;height:540px;right:-140px;top:95px;transform:rotate(-18deg)}.orbit:after{content:"";position:absolute;width:18px;height:18px;border-radius:50%;background:var(--yellow);left:65px;top:50px}.dora{position:absolute;right:16%;top:150px;width:270px;height:270px;border-radius:50%;background:var(--blue);border:8px solid #111;box-shadow:18px 18px 0 #111}.dora:before{content:"";position:absolute;left:43px;top:62px;width:65px;height:75px;border-radius:50%;background:white;border:5px solid #111;box-shadow:70px 0 0 -5px white,70px 0 0 0 #111}.dora:after{content:"";position:absolute;left:112px;top:117px;width:30px;height:30px;border-radius:50%;background:#e33;border:4px solid #111;box-shadow:0 55px 0 -6px white}.dora-belly{position:absolute;left:55px;bottom:45px;width:160px;height:100px;border-radius:50%;background:white;border:5px solid #111}.bell{position:absolute;left:114px;bottom:18px;width:44px;height:28px;background:var(--yellow);border:4px solid #111;border-radius:0 0 20px 20px;z-index:3}.ring{position:absolute;left:128px;bottom:5px;width:15px;height:15px;border:4px solid #111;border-top:0;border-radius:0 0 12px 12px}.art-label{position:absolute;left:30px;bottom:28px;font:10px "DM Mono";line-height:1.6;color:#555}
+.section{border-bottom:1px solid var(--line);padding:90px 0}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:40px}.section-no{font:10px "DM Mono";color:var(--blue)}h2{font-size:58px;letter-spacing:-3px;margin:7px 0 0;line-height:.95}.section-desc{max-width:420px;color:#686868;font-size:13px;line-height:1.7}.grid6{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}.card{min-height:330px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:28px;position:relative;transition:.2s;background:transparent}.card:hover{background:var(--paper)}.avatar{width:78px;height:78px;border:1px solid #111;background:white;display:grid;place-items:center;font-size:38px;margin-bottom:55px}.card .tag{font:9px "DM Mono";color:var(--blue)}.card h3{font-size:25px;letter-spacing:-1px;margin:8px 0}.card .title{font-size:11px;font-weight:800;margin-bottom:13px}.card p{font-size:12px;line-height:1.65;color:#666;max-width:350px}.meta{position:absolute;bottom:22px;left:28px;right:28px;font:9px "DM Mono";color:#888;border-top:1px solid var(--line);padding-top:10px}
+.gadgets{grid-template-columns:repeat(2,1fr)}.gadget{min-height:240px;display:grid;grid-template-columns:80px 1fr;gap:20px}.gicon{width:70px;height:70px;border:1px solid #111;background:#fff;display:grid;place-items:center;font-size:31px}.gadget h3{font-size:24px;margin:5px 0}.gadget .line{font:9px "DM Mono";color:var(--blue)}.gadget p{font-size:12px;color:#666;line-height:1.65}.explore{position:absolute;right:24px;bottom:22px;font:9px "DM Mono";border:0;background:none;text-decoration:underline;cursor:pointer}
+.archive{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line)}.archive-left{padding:30px 30px 30px 0}.archive-right{border-left:1px solid var(--line);padding:30px}.statgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-bottom:25px}.stat{background:var(--bg);padding:20px 14px}.stat b{font-size:30px}.stat span{display:block;font:9px "DM Mono";color:#777;margin-top:7px}.archrow{display:grid;grid-template-columns:40px 1fr;gap:10px;padding:20px 0;border-bottom:1px solid var(--line)}.archrow b{font:10px "DM Mono";color:var(--blue)}.archrow h4{margin:0 0 5px;font-size:15px}.archrow p{margin:0;color:#777;font-size:11px;line-height:1.5}.terminal{background:#111;color:#eee;min-height:290px;padding:25px;font:11px "DM Mono";line-height:1.9}.terminal .blue{color:#4e8cff}.cursor{display:inline-block;width:7px;height:13px;background:#fff;vertical-align:-2px;animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
+.jokes{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border-top:1px solid var(--line);border-left:1px solid var(--line)}.joke{min-height:190px;padding:28px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:transparent}.joke:hover{background:var(--paper)}.joke small{font:9px "DM Mono";color:var(--blue)}.joke p{font-size:18px;line-height:1.5;margin-top:28px}.joke:nth-child(5){grid-column:1/-1}
+.time-machine{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line)}.tm-copy{padding:35px 35px 35px 0}.tm-screen{background:#111;color:#fff;padding:35px;font:11px "DM Mono";min-height:330px}.clock{font-size:52px;letter-spacing:-3px;margin:20px 0;color:var(--yellow)}.tm-screen button{background:#fff;border:0;padding:10px;font:10px "DM Mono";margin-right:5px;cursor:pointer}.result{color:#9da5b2;line-height:1.7}
+.footer{padding:45px 0;font:9px "DM Mono";color:#777;display:flex;justify-content:space-between;gap:20px}.modal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;place-items:center;z-index:50;padding:20px}.modal.show{display:grid}.modal-box{background:var(--bg);border:1px solid #111;width:min(600px,100%);padding:35px;box-shadow:12px 12px 0 #111}.modal-box button{float:right;border:0;background:#111;color:#fff;padding:7px 10px;cursor:pointer}.modal-box h3{font-size:40px;letter-spacing:-2px;margin:25px 0 8px}.modal-box p{font-size:13px;line-height:1.7;color:#666}
+@media(max-width:900px){.wrap{padding:0 20px}.nav .navlinks{display:none}.hero{grid-template-columns:1fr;min-height:auto}.hero-copy{padding:75px 0}.hero-art{border-left:0;border-top:1px solid var(--line);min-height:500px}.dora{right:18%;top:100px}.grid6,.gadgets,.archive,.time-machine{grid-template-columns:1fr}.jokes{grid-template-columns:1fr}.joke:nth-child(5){grid-column:auto}.archive-right{border-left:0;border-top:1px solid var(--line)}h2{font-size:44px}.section-head{display:block}.section-desc{margin-top:15px}.footer{display:block}.footer div+div{margin-top:15px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+ <div><span class="logo" id="brand">DORAEMON.</span><span class="sub" id="siteKicker">FAN ARCHIVE / EARTH</span></div>
+ <nav class="nav">
+  <button onclick="nav('characters')">CHARACTERS</button><button onclick="nav('gadgets')">GADGETS</button><button onclick="nav('jokes')">JOKES</button><button onclick="nav('archive')">ARCHIVE</button>
+ </nav>
+ <button class="utility" onclick="randomGadget()">⚡ RANDOM</button>
+</header>
+
+<main>
+<section class="hero">
+ <div class="hero-copy">
+  <div class="eyebrow" id="heroEyebrow">WELCOME TO THE 22ND CENTURY</div>
+  <h1 id="heroTitle">HEY.<br>I'M DORAEMON.</h1>
+  <p id="heroIntro"></p>
+  <div class="hero-actions"><button class="btn" onclick="nav('characters')">EXPLORE THE ARCHIVE</button><button class="btn alt" onclick="randomGadget()">RANDOM GADGET ↗</button></div>
+  <div class="hero-note mono" id="heroNote"></div>
+  <div class="hero-note mono" id="loading">BOOTING ARCHIVE...</div>
+ </div>
+ <div class="hero-art">
+  <div class="orbit"></div><div class="star" style="left:20%;top:20%"></div><div class="star" style="left:33%;top:35%"></div><div class="star" style="left:60%;top:12%"></div><div class="star" style="left:75%;top:42%"></div>
+  <div class="dora"><div class="dora-belly"></div><div class="bell"></div><div class="ring"></div></div>
+  <div class="art-label">ARCHIVE OBJECT / 001<br>BLUE ROBOT CAT · EARTH<br>STATUS: FRIENDLY</div>
+ </div>
+</section>
+
+<section class="section" id="characters">
+ <div class="section-head"><div><div class="section-no">01 / CHARACTERS</div><h2>THE PEOPLE.<br>THE ROBOTS.</h2></div><div class="section-desc">The little universe around Nobita: friends, family, bullies, dreamers and one very useful robotic cat.</div></div>
+ <div class="grid6" id="charactersGrid"></div>
+</section>
+
+<section class="section" id="gadgets">
+ <div class="section-head"><div><div class="section-no">02 / GADGET VAULT</div><h2>OPEN THE<br>POCKET.</h2></div><div class="section-desc">A curated little shelf of futuristic gadgets. Click any object to inspect it.</div></div>
+ <div class="grid6 gadgets" id="gadgetsGrid"></div>
+</section>
+
+<section class="section" id="jokes">
+ <div class="section-head"><div><div class="section-no">03 / JOKE DEPARTMENT</div><h2>STAY FOR<br>THE JOKES.</h2></div><div class="section-desc">Clean Doraemon-flavoured nonsense. Nothing complicated. Just enough to make the page worth scrolling.</div></div>
+ <div class="jokes" id="jokesGrid"></div>
+</section>
+
+<section class="section" id="archive">
+ <div class="section-head"><div><div class="section-no">04 / PUBLIC ARCHIVE</div><h2>A SMALL<br>UNIVERSE.</h2></div><div class="section-desc">A fan-made index. No accounts, no likes, no algorithm — just a website dedicated to Doraemon.</div></div>
+ <div class="archive">
+  <div class="archive-left"><div class="statgrid" id="stats"></div><div id="archiveRows"></div></div>
+  <div class="archive-right"><div class="terminal"><span class="blue">DORAEMON://ARCHIVE</span><br>--------------------------------<br>connection: local<br>destination: 22nd century<br>owner: nobita / friends<br>pocket: 4D<br>status: <span class="blue">ONLINE</span><br><br>ready for exploration.<br><br><button onclick="timeMachine()">ACTIVATE TIME MACHINE</button><br><br><div class="result" id="tmResult">No destination selected.<br>Press the button. Try not to alter history.</div></div></div>
+ </div>
+</section>
+</main>
+
+<footer class="footer">
+ <div>DORAEMON. · FAN-MADE · <span id="version"></span></div>
+ <div>UNOFFICIAL PROJECT · © <span id="year"></span> · MADE WITH CURIOSITY</div>
+</footer>
+</div>
+
+<div class="modal" id="modal"><div class="modal-box"><button id="close">×</button><div id="modalContent"></div></div></div>
+<script>
+let D=null;
+const $=s=>document.querySelector(s);
+async function boot(){
+ try{let r=await fetch('doraemon.json');D=await r.json();render()}
+ catch(e){$('#loading').textContent='DORAEMON.JSON NOT FOUND — KEEP BOTH FILES TOGETHER.'}
+}
+function render(){
+ document.title=D.site.name+' — '+D.site.tagline;
+ $('#brand').textContent=D.site.name;$('#siteKicker').textContent=D.site.kicker;
+ $('#heroEyebrow').textContent=D.home.eyebrow;$('#heroTitle').innerHTML=D.home.title;
+ $('#heroIntro').textContent=D.home.intro;$('#heroNote').textContent=D.home.note;
+ $('#charactersGrid').innerHTML=D.characters.map((x,i)=>`<article class="card"><div class="avatar">${x.emoji}</div><div class="tag">${x.tag}</div><h3>${x.name}</h3><div class="title">${x.title}</div><p>${x.text}</p><div class="meta">${x.meta}</div><button class="explore" onclick="profile(${i})">OPEN PROFILE ↗</button></article>`).join('');
+ $('#gadgetsGrid').innerHTML=D.gadgets.map((x,i)=>`<article class="card gadget"><div class="gicon">${x.icon}</div><div><div class="line">${x.accent} / GADGET</div><h3>${x.name}</h3><p>${x.text}</p></div><button class="explore" onclick="gadget(${i})">OPEN GADGET ↗</button></article>`).join('');
+ $('#jokesGrid').innerHTML=D.jokes.map(x=>`<article class="joke"><small>${x.cat} / JOKE DEPARTMENT</small><p>${x.text}</p></article>`).join('');
+ $('#stats').innerHTML=D.archive.stats.map(x=>`<div class="stat"><b>${x[0]}</b><span>${x[1]}</span></div>`).join('');
+ $('#archiveRows').innerHTML=D.archive.sections.map(x=>`<div class="archrow"><b>${x.n}</b><div><h4>${x.name}</h4><p>${x.desc}</p></div></div>`).join('');
+ $('#year').textContent=new Date().getFullYear();$('#version').textContent=D.site.version;
+ $('#loading').textContent='SYSTEM ONLINE · ARCHIVE READY';
+}
+function profile(i){let x=D.characters[i];openModal(`<small>${x.tag}</small><h3>${x.name}</h3><b>${x.title}</b><p>${x.text}</p><hr><small>${x.meta}</small>`)}
+function gadget(i){let x=D.gadgets[i];openModal(`<small>${x.accent} / GADGET</small><h3>${x.name}</h3><p>${x.text}</p>`)}
+function openModal(t){$('#modalContent').innerHTML=t;$('#modal').classList.add('show')}
+function closeModal(){$('#modal').classList.remove('show')}
+function randomGadget(){gadget(Math.floor(Math.random()*D.gadgets.length))}
+function nav(id){document.getElementById(id).scrollIntoView({behavior:'smooth'})}
+function timeMachine(){
+ let eras=['22ND CENTURY','20TH CENTURY','NOBITA’S TOMORROW','A COMPLETELY DIFFERENT TIMELINE'];
+ let e=eras[Math.floor(Math.random()*eras.length)];
+ $('#tmResult').innerHTML='DESTINATION LOCKED.<br><br><span class="blue">› '+e+'</span><br>Coordinates accepted.<br>Do not change anything. Seriously.';
+}
+$('#close').onclick=closeModal;$('#modal').onclick=e=>{if(e.target.id==='modal')closeModal()};
+boot();
+</script>
+</body>
+</html>
