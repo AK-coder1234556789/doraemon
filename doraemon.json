@@ -1,0 +1,183 @@
+{
+  "site": {
+    "name": "DORAEMON.",
+    "kicker": "FAN ARCHIVE / EARTH",
+    "tagline": "A little corner of the internet for Doraemon.",
+    "version": "29-08-2026-01",
+    "notice": "Unofficial fan project. Doraemon and related characters are the property of their respective rights holders."
+  },
+  "home": {
+    "eyebrow": "WELCOME TO THE 22ND CENTURY",
+    "title": "HEY.<br>I'M DORAEMON.",
+    "intro": "A quiet little fan-made archive for the blue robot cat, Nobita, the gadgets, the adventures and the strange little moments that make this universe special.",
+    "links": [
+      "EXPLORE THE ARCHIVE",
+      "RANDOM GADGET"
+    ],
+    "note": "No accounts. No feeds. Just Doraemon."
+  },
+  "characters": [
+    {
+      "id": "doraemon",
+      "name": "Doraemon",
+      "tag": "01 / THE ROBOT CAT",
+      "emoji": "🔵",
+      "title": "THE GADGET KEEPER.",
+      "text": "A 22nd-century robotic cat with a 4D pocket full of impossible-looking solutions. Usually helpful. Occasionally chaotic.",
+      "meta": "22nd century · 129.3 cm · Dorayaki"
+    },
+    {
+      "id": "nobita",
+      "name": "Nobita Nobi",
+      "tag": "02 / THE DREAMER",
+      "emoji": "👓",
+      "title": "THE ONE WHO ASKS.",
+      "text": "Kind-hearted, unlucky at times, endlessly imaginative — and almost always one gadget away from making a small problem much bigger.",
+      "meta": "20th century · Student · Shizuka's friend"
+    },
+    {
+      "id": "shizuka",
+      "name": "Shizuka Minamoto",
+      "tag": "03 / THE HEART",
+      "emoji": "🌸",
+      "title": "THE STEADY ONE.",
+      "text": "Smart, caring and thoughtful. Shizuka is one of the people who keeps Nobita's world grounded.",
+      "meta": "20th century · Student · Minamoto family"
+    },
+    {
+      "id": "gian",
+      "name": "Takeshi Gouda",
+      "tag": "04 / THE VOICE",
+      "emoji": "🎤",
+      "title": "THE LOUD ONE.",
+      "text": "Known as Gian. Strong, confident and famous among his friends for performances that are difficult to forget.",
+      "meta": "20th century · Student · Jaiko's brother"
+    },
+    {
+      "id": "suneo",
+      "name": "Suneo Honekawa",
+      "tag": "05 / THE SHOW-OFF",
+      "emoji": "💎",
+      "title": "THE FLEX.",
+      "text": "A collector of stories, toys and possessions — and never particularly shy about showing them off.",
+      "meta": "20th century · Student · Honekawa family"
+    },
+    {
+      "id": "dorami",
+      "name": "Dorami",
+      "tag": "06 / THE SISTER",
+      "emoji": "💛",
+      "title": "THE RELIABLE ONE.",
+      "text": "Doraemon's younger sister. Yellow, capable and often more sensible than her brother.",
+      "meta": "22nd century · Robot cat · Younger sister"
+    }
+  ],
+  "gadgets": [
+    {
+      "name": "Anywhere Door",
+      "icon": "🚪",
+      "line": "GO ANYWHERE.",
+      "text": "A door that can connect you to another destination. The ultimate shortcut.",
+      "accent": "DOOR"
+    },
+    {
+      "name": "Take-copter",
+      "icon": "🎋",
+      "line": "LOOK UP.",
+      "text": "A tiny rotor that turns an ordinary afternoon into a flight.",
+      "accent": "FLIGHT"
+    },
+    {
+      "name": "4D Pocket",
+      "icon": "👜",
+      "line": "THE IMPOSSIBLE DRAWER.",
+      "text": "Doraemon's four-dimensional storage space — the reason almost anything can appear at exactly the wrong moment.",
+      "accent": "POCKET"
+    },
+    {
+      "name": "Time Machine",
+      "icon": "⏳",
+      "line": "NOT YESTERDAY. ANY DAY.",
+      "text": "A route through time, usually accessed beneath Nobita's desk.",
+      "accent": "TIME"
+    },
+    {
+      "name": "Memory Bread",
+      "icon": "🍞",
+      "line": "EAT. REMEMBER.",
+      "text": "A famous gadget-food idea associated with memorising written information.",
+      "accent": "MEMORY"
+    },
+    {
+      "name": "What-If Phone Booth",
+      "icon": "☎️",
+      "line": "WHAT IF?",
+      "text": "Imagine an alternate world where a hypothetical condition becomes reality.",
+      "accent": "ALTERNATE"
+    }
+  ],
+  "jokes": [
+    {
+      "cat": "DORAEMON",
+      "text": "Nobita: I have a plan.<br>Doraemon: That's usually how the trouble starts."
+    },
+    {
+      "cat": "GADGETS",
+      "text": "The 4D Pocket has everything.<br>Except apparently a gadget that makes Nobita do homework himself."
+    },
+    {
+      "cat": "NOBITA",
+      "text": "Nobita discovers a shortcut to success.<br>He immediately takes a shortcut around the shortcut."
+    },
+    {
+      "cat": "GIAN",
+      "text": "Gian: I'm going to sing one song.<br>The neighbourhood: We need a gadget."
+    },
+    {
+      "cat": "REAL LIFE",
+      "text": "Me: I'll use the internet for five minutes.<br>The internet: Here's a 42-minute Doraemon compilation."
+    }
+  ],
+  "archive": {
+    "stats": [
+      [
+        "06",
+        "CHARACTERS"
+      ],
+      [
+        "06",
+        "GADGETS"
+      ],
+      [
+        "05",
+        "JOKES"
+      ],
+      [
+        "∞",
+        "ADVENTURES"
+      ]
+    ],
+    "sections": [
+      {
+        "n": "01",
+        "name": "CHARACTERS",
+        "desc": "Meet the people and robots around Nobita."
+      },
+      {
+        "n": "02",
+        "name": "GADGET VAULT",
+        "desc": "The pocket is open. Explore the classics."
+      },
+      {
+        "n": "03",
+        "name": "JOKE DEPARTMENT",
+        "desc": "Clean, silly, Doraemon-flavoured internet nonsense."
+      },
+      {
+        "n": "04",
+        "name": "TIME MACHINE",
+        "desc": "A small interactive journey through the universe."
+      }
+    ]
+  }
+}
